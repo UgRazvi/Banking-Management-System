@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(6, 3, 15);
+  /* background-color: rgb(5, 32, 32); */
+}
+.submit-btn {
+  margin-right: 90px; margin-top:60px;
+
+  background-color: white;
+  color: rgb(2, 7, 7);
+}
+
+.submit-btn:hover {
+  /* background-color: rgb(2, 7, 7);
+color: white; */
+background-color: darkcyan;
+color: white;
+border-color: black;
+}
+/* LOGIN PAGE CSS ENDS */
+
+/* LOGIN PAGE CSS STARTS */
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+h1 {
+  padding-top: 80px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.container {
+  border-radius: 0 40px;
+  width: 300px;
+  height: 450px;
+  position: relative;
+  box-sizing: border-box;
+  /* box-shadow: 0 0 6px 0.7px rgb(0, 139, 245); */
+  /* box-shadow: 1px 10px 5px 10px rgb(0, 139, 245); */
+  /* box-shadow: 1px 10px 20px 10px rgb(255, 40, 40); */
+  box-shadow: 1px 10px 15px 10px rgb(0, 217, 255);
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 100, 0.8)),
+    url(./IMAGES/test.png);
+}
+
+.card {
+  height: 50vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+::placeholder {
+  font-size: large;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.inner-box {
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  width: 260px;
+  box-sizing: border-box;
+  /* box-shadow: 0 0 1px 0.7px rgb(20, 133, 220); */
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 8px;
+  margin: 10px;
+  background: transparent;
+  width: 100%;
+}
